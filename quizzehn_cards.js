@@ -254,84 +254,83 @@ const cards = [
       "10. Uran"
     ]
   },
-  {
-    "question": "18. Nenne die Top 10 bekannten Hunderassen (Stand: 2025).",
-    "answers": [
-      "1. Labrador Retriever",
-      "2. Deutscher Schäferhund",
-      "3. Golden Retriever",
-      "4. Französische Bulldogge",
-      "5. Chihuahua",
-      "6. Pudel",
-      "7. Bulldogge",
-      "8. Beagle",
-      "9. Rottweiler",
-      "10. Yorkshire Terrier"
-    ]
-  },
+{
+  "question": "18. Welche 10 Hunderassen wurden im Jahr 2024 in Deutschland am häufigsten bei TASSO registriert?",
+  "answers": [
+    "1. Mischling",
+    "2. Labrador Retriever",
+    "3. Deutscher Schäferhund",
+    "4. Französische Bulldogge",
+    "5. Chihuahua",
+    "6. Golden Retriever",
+    "7. Australian Shepherd",
+    "8. Jack Russell Terrier",
+    "9. Yorkshire Terrier",
+    "10. Havaneser"
+  ]
+}
+,
 
   /* ----------------------------- 50 neue Karten ----------------------------- */
 
-  {
-    "question": "19. Nenne die 10 längsten Flüsse der Welt (Stand: 2025).",
-    "answers": [
-      "1. Nil",
-      "2. Amazonas",
-      "3. Jangtse",
-      "4. Mississippi-Missouri",
-      "5. Jenissei-Angara",
-      "6. Gelber Fluss (Huang He)",
-      "7. Ob-Irtysch",
-      "8. Paraná",
-      "9. Kongo",
-      "10. Amur"
-    ]
-  },
-  {
-    "question": "20. Nenne die 10 größten Seen nach Fläche (Stand: 2025).",
-    "answers": [
-      "1. Kaspisches Meer",
-      "2. Oberer See",
-      "3. Victoriasee",
-      "4. Huronsee",
-      "5. Michigansee",
-      "6. Tanganjikasee",
-      "7. Baikalsee",
-      "8. Großer Bärensee",
-      "9. Großer Sklavensee",
-      "10. Malawisee"
-    ]
-  },
-  {
-    "question": "21. Nenne die 10 höchsten Gebäude der Welt (Stand: 2025).",
-    "answers": [
-      "1. Burj Khalifa",
-      "2. Merdeka 118",
-      "3. Shanghai Tower",
-      "4. Abraj Al-Bait Clock Tower",
-      "5. Ping An Finance Center",
-      "6. Lotte World Tower",
-      "7. One World Trade Center",
-      "8. Guangzhou CTF Finance Centre",
-      "9. Tianjin CTF Finance Centre",
-      "10. CITIC Tower (China Zun)"
-    ]
-  },
-  {
-    "question": "22. Nenne die 10 längsten Brücken der Welt (Stand: 2025).",
-    "answers": [
-      "1. Danyang-Kunshan Grand Bridge",
-      "2. Changhua–Kaohsiung Viadukt",
-      "3. Cangde Grand Bridge",
-      "4. Tianjin Grand Bridge",
-      "5. Weinan Weihe Grand Bridge",
-      "6. Bang-Na Expressway",
-      "7. Beijing Grand Bridge",
-      "8. Lake Pontchartrain Causeway",
-      "9. Hongkong-Zhuhai-Macao-Brücke (Hauptteil)",
-      "10. Wuhan–Guangzhou High-Speed Railway Viadukt"
-    ]
-  },
+{
+  "question": "19. Welche 10 Vornamen wurden im Jahr 2024 in Deutschland am häufigsten vergeben (laut Auswertung von Knud Bielefeld)?",
+  "answers": [
+    "1. Emilia",
+    "2. Sophia",
+    "3. Emma",
+    "4. Hannah",
+    "5. Mia",
+    "6. Noah",
+    "7. Matteo",
+    "8. Elias",
+    "9. Luca",
+    "10. Leon"
+  ]
+}
+,
+{
+  "question": "20. Welche 10 Vornamen gelten im Jahr 2025 weltweit als die häufigsten (nach geschätzter Gesamtzahl der Namensträger)?",
+  "answers": [
+    "1. Mohammed (inkl. Varianten wie Muhammad, Mohamed, Mehmet)",
+    "2. Maria",
+    "3. José",
+    "4. Wei",
+    "5. John",
+    "6. David",
+    "7. Michael",
+    "8. Ahmed",
+    "9. Ali",
+    "10. Anna"
+  ]
+},
+{
+  "question": "21. Welche 8 Religionen oder Glaubensgemeinschaften hatten laut Pew Research Center im Jahr 2024 weltweit jeweils über 100 Millionen Anhänger?",
+  "answers": [
+    "1. Christentum",
+    "2. Islam",
+    "3. Hinduismus",
+    "4. Buddhismus",
+    "5. Chinesische Volksreligionen",
+    "6. Afrikanisch-traditionelle Religionen",
+    "7. Sikhismus",
+    "8. Religiös Ungebundene (Atheisten, Agnostiker etc.)"
+  ]
+}
+,
+{
+  "question": "22. Welche 7 Länder nutzen laut internationalen Studien am häufigsten ein Bidet oder integrierte Dusch-WCs im Privathaushalt (Stand: 2024)?",
+  "answers": [
+    "1. Japan",
+    "2. Italien",
+    "3. Südkorea",
+    "4. Frankreich",
+    "5. Griechenland",
+    "6. Portugal",
+    "7. Argentinien"
+  ]
+}
+,
   {
     "question": "23. Nenne die 10 bevölkerungsreichsten Städte (Metropolregionen) weltweit (Stand: 2025).",
     "answers": [
@@ -452,21 +451,20 @@ const cards = [
       "10. X / Twitter"
     ]
   },
-  {
-    "question": "31. Nenne die 10 verkehrsreichsten Flughäfen nach Passagieraufkommen (Stand: 2025).",
-    "answers": [
-      "1. Hartsfield-Jackson Atlanta (ATL)",
-      "2. Beijing Capital (PEK)",
-      "3. Dubai International (DXB)",
-      "4. Los Angeles (LAX)",
-      "5. Tokyo Haneda (HND)",
-      "6. London Heathrow (LHR)",
-      "7. Chicago O’Hare (ORD)",
-      "8. Dallas/Fort Worth (DFW)",
-      "9. Denver (DEN)",
-      "10. Istanbul (IST)"
-    ]
-  },
+{
+  "question": "31. Welche 8 Gegenstände werden laut internationalen Hotelketten am häufigsten in Hotelzimmern vergessen (Stand: 2024)?",
+  "answers": [
+    "1. Ladegeräte (Smartphone, Laptop)",
+    "2. Kleidung (z. B. Unterwäsche, Socken)",
+    "3. Zahnbürste und Zahnpasta",
+    "4. Schmuck und Uhren",
+    "5. Kopfhörer",
+    "6. Bücher oder Zeitschriften",
+    "7. Brillen oder Kontaktlinsen",
+    "8. Reisedokumente (z. B. Reisepass)"
+  ]
+}
+,
   {
     "question": "32. Nenne die 10 häufigsten Elemente in der Erdkruste (Stand: 2025).",
     "answers": [
@@ -731,21 +729,19 @@ const cards = [
   ]
 }
 ,
-  {
-    "question": "50. Nenne die 10 längsten Eisenbahnstrecken (Zugverbindungen) der Welt (Stand: 2025).",
-    "answers": [
-      "1. Transsibirische Eisenbahn",
-      "2. China–Europa Güterzugroute (Xi’an–Duisburg)",
-      "3. Canadian (Toronto–Vancouver)",
-      "4. Indian Pacific (Sydney–Perth)",
-      "5. Qinghai–Tibet Railway",
-      "6. Moskau–Pjöngjang",
-      "7. Transasiatische Eisenbahn (geplante Route Istanbul–Bangkok)",
-      "8. Transmongolische Eisenbahn",
-      "9. Beijing–Kunming Hochgeschwindigkeitsstrecke",
-      "10. Ghan (Adelaide–Darwin)"
-    ]
-  },
+{
+  "question": "80. Welche 7 Filme haben bis einschließlich 2024 die meisten Oscars in der Geschichte der Academy Awards gewonnen (mindestens 11 Auszeichnungen)?",
+  "answers": [
+    "1. Ben Hur (1959) – 11 Oscars",
+    "2. Titanic (1997) – 11 Oscars",
+    "3. Der Herr der Ringe: Die Rückkehr des Königs (2003) – 11 Oscars",
+    "4. West Side Story (1961) – 10 Oscars",
+    "5. Der englische Patient (1996) – 9 Oscars",
+    "6. Gigi (1958) – 9 Oscars",
+    "7. Der letzte Kaiser (1987) – 9 Oscars"
+  ]
+}
+,
   {
   "question": "51. Welche 5 Hauptcharaktere sind in der Originalbesetzung der Serie 'Friends' enthalten?",
   "answers": [
