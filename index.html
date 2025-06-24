@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quizzehn</title>
+  <!-- Montserrat von Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #4b4b4b;
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .container {
+      width: 320px;
+      height: 600px;
+      background: #000;
+      border-radius: 30px;
+      padding: 20px;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+    .card {
+      position: absolute;
+      top: 20px; left: 20px;
+      right: 20px; bottom: 80px;
+      background: #f4a300;
+      border-radius: 20px;
+      padding: 20px;
+      box-sizing: border-box;
+      color: #fff;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      transform: translateY(0);
+      transition: transform 0.5s ease, opacity 0.5s ease;
+      z-index: 2;
+    }
+    .card.slide-out {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    .question {
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+      width: 100%;
+      flex-grow: 1;
+      overflow-y: auto;
+    }
+    li {
+      margin: 6px 0;
+      font-weight: 400;
+      font-size: 16px;
+      padding-left: 10px;
+    }
+    .refresh-button {
+      position: absolute;
+      bottom: 20px; left: 50%;
+      transform: translateX(-50%);
+      width: 160px; height: 50px;
+      font-size: 18px; font-weight: 600;
+      border: none; border-radius: 25px;
+      background: #fff; color: #000;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      z-index: 10;
+      transition: background 0.3s ease;
+    }
+    .refresh-button:hover {
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="container">
+    <button class="refresh-button" id="nextBtn">↻ Neue Karte</button>
+  </div>
+
+  <!-- Externe JS-Datei mit deinen Fragen & Antworten -->
+  <script src="quizzehn_cards.js"></script>
+  <script>
+    const container = document.getElementById('container');
+    const nextBtn   = document.getElementById('nextBtn');
+    let currentIndex = -1;
+
+    function makeCard(idx) {
+      const c = cards[idx];
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `
+        <div class="question">${c.question}</div>
+        <ul>${c.answers.map(a => `<li>${a}</li>`).join('')}</ul>
+      `;
+      return card;
+    }
+
+    function initStack() {
+      const first  = getNextIndex();
+      const second = getNextIndex();
+      const under  = makeCard(second);
+      under.style.zIndex = 1;
+      const top    = makeCard(first);
+      top.style.zIndex = 2;
+      container.appendChild(under);
+      container.appendChild(top);
+      currentIndex = first;
+    }
+
+    function onNext() {
+      const cardsInDom = Array.from(container.querySelectorAll('.card'));
+      if (!cardsInDom.length) return;
+      const topCard = cardsInDom.reduce((a,b) =>
+        (+a.style.zIndex > +b.style.zIndex ? a : b)
+      );
+      topCard.classList.add('slide-out');
+      setTimeout(() => {
+        topCard.remove();
+        const newIdx  = getNextIndex();
+        const newCard = makeCard(newIdx);
+        newCard.style.zIndex = 1;
+        container.querySelectorAll('.card').forEach(c=>c.style.zIndex = 2);
+        container.insertBefore(newCard, nextBtn);
+      }, 500);
+    }
+
+    function getNextIndex() {
+      let idx;
+      do { idx = Math.floor(Math.random() * cards.length); }
+      while (idx === currentIndex);
+      currentIndex = idx;
+      return idx;
+    }
+
+    initStack();
+    nextBtn.addEventListener('click', onNext);
+  </script>
+</body>
+</html>
