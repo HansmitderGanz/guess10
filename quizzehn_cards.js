@@ -1021,5 +1021,239 @@ const cards = [
       "9. Betriebssystem",
       "10. Peripherie (Tastatur, Maus, Monitor)"
     ]
+ },
+  {
+    "question": "69. Nenne die 9 Gefährten der „Gemeinschaft des Ringes“ im Film „Der Herr der Ringe: Die Gefährten“ (Stand: 2025).",
+    "answers": [
+      "1. Frodo Beutlin",
+      "2. Samweis Gamdschie",
+      "3. Meriadoc Brandybock (Merry)",
+      "4. Peregrin Tuk (Pippin)",
+      "5. Aragorn",
+      "6. Legolas",
+      "7. Gimli",
+      "8. Boromir",
+      "9. Gandalf"
+    ]
+  },
+  {
+    "question": "70. In welchen fünf Ländern wird pro Kopf am meisten Käse konsumiert? (Stand: 2025).",
+    "answers": [
+      "1. Frankreich",
+      "2. Island",
+      "3. Finnland",
+      "4. Dänemark",
+      "5. Schweiz"
+    ]
+  },
+  {
+    "question": "71. Nenne die zehn Länder mit den meisten UNESCO-Welterbestätten (Stand: 2025).",
+    "answers": [
+      "1. China",
+      "2. Italien",
+      "3. Deutschland",
+      "4. Spanien",
+      "5. Frankreich",
+      "6. Indien",
+      "7. Mexiko",
+      "8. Vereinigtes Königreich",
+      "9. Russland",
+      "10. Iran"
+    ]
+  },
+  {
+    "question": "72. In welchen sieben Städten wurden die Olympischen Sommerspiele von 2000 bis 2024 ausgetragen? (Stand: 2025).",
+    "answers": [
+      "1. Sydney (2000)",
+      "2. Athen (2004)",
+      "3. Peking (2008)",
+      "4. London (2012)",
+      "5. Rio de Janeiro (2016)",
+      "6. Tokio (2021 für 2020)",
+      "7. Paris (2024)"
+    ]
+  },
+  {
+    "question": "73. Wie heißen die vier Gründer der Hogwarts-Schule für Hexerei und Zauberei? (Stand: 2025).",
+    "answers": [
+      "1. Godric Gryffindor",
+      "2. Salazar Slytherin",
+      "3. Rowena Ravenclaw",
+      "4. Helga Hufflepuff"
+    ]
+  },
+  {
+    "question": "74. Nenne die sieben traditionellen Farben des Regenbogens in korrekter Reihenfolge (Stand: 2025).",
+    "answers": [
+      "1. Rot",
+      "2. Orange",
+      "3. Gelb",
+      "4. Grün",
+      "5. Blau",
+      "6. Indigo",
+      "7. Violett"
+    ]
+  },
+  {
+    "question": "75. Welche zehn Sprachen verfügen über die meisten Wikipedia-Artikel? (Stand: 2025).",
+    "answers": [
+      "1. Englisch",
+      "2. Cebuano",
+      "3. Schwedisch",
+      "4. Deutsch",
+      "5. Französisch",
+      "6. Niederländisch",
+      "7. Russisch",
+      "8. Italienisch",
+      "9. Spanisch",
+      "10. Polnisch"
+    ]
+  },
+  {
+    "question": "76. Welche fünf Manga-Serien sind die meistverkauften aller Zeiten? (Stand: 2025).",
+    "answers": [
+      "1. One Piece",
+      "2. Golgo 13",
+      "3. Dragon Ball",
+      "4. Naruto",
+      "5. Detective Conan"
+    ]
+  },
+  {
+    "question": "77. Nenne die acht Planeten des Sonnensystems in Reihenfolge ihrer Entfernung von der Sonne (Stand: 2025).",
+    "answers": [
+      "1. Merkur",
+      "2. Venus",
+      "3. Erde",
+      "4. Mars",
+      "5. Jupiter",
+      "6. Saturn",
+      "7. Uranus",
+      "8. Neptun"
+    ]
+  },
+  {
+    "question": "78. Welche drei Staaten sind vollständig von einem einzigen anderen Land umschlossen? (Stand: 2025).",
+    "answers": [
+      "1. Lesotho (von Südafrika umschlossen)",
+      "2. San Marino (von Italien umschlossen)",
+      "3. Vatikanstadt (von Italien umschlossen)"
+    ]
+  },
+  {
+    "question": "79. Nenne die fünf größten Schokoladenhersteller-Konzerne nach Umsatz (Stand: 2025).",
+    "answers": [
+      "1. Mars Wrigley",
+      "2. Ferrero Group",
+      "3. Mondelez International",
+      "4. Meiji Holdings",
+      "5. The Hershey Company"
+    ]
+  },
+  {
+    "question": "80. Wie heißen die sieben Kontinente der Erde? (Stand: 2025).",
+    "answers": [
+      "1. Asien",
+      "2. Afrika",
+      "3. Nordamerika",
+      "4. Südamerika",
+      "5. Antarktika",
+      "6. Europa",
+      "7. Australien/Ozeanien"
+    ]
+  },
+  {
+    "question": "81. Nenne die zehn längsten Flüsse Europas (Stand: 2025).",
+    "answers": [
+      "1. Wolga",
+      "2. Donau",
+      "3. Dnjepr",
+      "4. Kama",
+      "5. Petschora",
+      "6. Nördliche Dwina",
+      "7. Ural",
+      "8. Dnestr",
+      "9. Rhein",
+      "10. Wytschegda"
+    ]
+  },
+  {
+    "question": "82. Welche fünf Tiere bilden die sogenannten „Big Five“ Afrikas? (Stand: 2025).",
+    "answers": [
+      "1. Löwe",
+      "2. Leopard",
+      "3. Afrikanischer Elefant",
+      "4. Spitz- oder Breitmaulnashorn",
+      "5. Afrikanischer Büffel"
+    ]
+  },
+  {
+    "question": "83. Nenne sechs Länder, die mehr als eine offizielle Hauptstadt haben (Stand: 2025).",
+    "answers": [
+      "1. Südafrika (Pretoria, Kapstadt, Bloemfontein)",
+      "2. Bolivien (La Paz, Sucre)",
+      "3. Niederlande (Amsterdam, Den Haag)",
+      "4. Elfenbeinküste (Yamoussoukro, Abidjan Regierungssitz)",
+      "5. Tansania (Dodoma, Daressalam Regierungssitz)",
+      "6. Sri Lanka (Sri Jayawardenepura, Colombo wirtschaftliches Zentrum)"
+    ]
+  },
+  {
+    "question": "84. Wie heißen die sieben Sätze in Gustav Holsts Orchestersuite „Die Planeten“? (Stand: 2025).",
+    "answers": [
+      "1. Mars, der Kriegsbringer",
+      "2. Venus, die Friedensbringerin",
+      "3. Merkur, der geflügelte Bote",
+      "4. Jupiter, der Freudenbringer",
+      "5. Saturn, der Ernährer",
+      "6. Uranus, der Magier",
+      "7. Neptun, der Mystiker"
+    ]
+  },
+  {
+    "question": "85. Welche fünf Streaming-Dienste haben weltweit die meisten Abonnenten? (Stand: 2025).",
+    "answers": [
+      "1. Netflix",
+      "2. Amazon Prime Video",
+      "3. Disney+",
+      "4. Max (ehemals HBO Max)",
+      "5. Paramount+"
+    ]
+  },
+  {
+    "question": "86. Nenne die sechs Länder, in denen der Euro offizielles Zahlungsmittel ist, obwohl sie nicht Mitglied der EU sind (Stand: 2025).",
+    "answers": [
+      "1. Andorra",
+      "2. Monaco",
+      "3. San Marino",
+      "4. Vatikanstadt",
+      "5. Montenegro",
+      "6. Kosovo"
+    ]
+  },
+  {
+    "question": "87. Welche fünf Länder produzieren weltweit am meisten Olivenöl? (Stand: 2025).",
+    "answers": [
+      "1. Spanien",
+      "2. Griechenland",
+      "3. Italien",
+      "4. Türkei",
+      "5. Marokko"
+    ]
+  },
+  {
+    "question": "88. Nenne die zehn meistverkauften Brettspiele aller Zeiten (Stand: 2025).",
+    "answers": [
+      "1. Schach",
+      "2. Dame",
+      "3. Monopoly",
+      "4. Scrabble",
+      "5. Cluedo (Clue)",
+      "6. Risiko",
+      "7. Das Spiel des Lebens",
+      "8. Trivial Pursuit",
+      "9. Siedler von Catan",
+      "10. Pictionary"
+    ]
   }
 ];
