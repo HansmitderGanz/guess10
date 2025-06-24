@@ -572,21 +572,18 @@ const cards = [
       "10. Torre UniCredit (Italien)"
     ]
   },
-  {
-    "question": "39. Nenne die 10 tiefsten Punkte der Ozeane (Stand: 2025).",
-    "answers": [
-      "1. Challenger Deep (Marianengraben)",
-      "2. Brownson Deep (Puerto-Rico-Graben)",
-      "3. Factorian Deep (South Sandwich Trench)",
-      "4. Horizon Deep (Tonga Trench)",
-      "5. Sirena Deep (Marianengraben)",
-      "6. Molloy Deep (Fram Strait)",
-      "7. Diamantina Fracture Zone",
-      "8. Romanche Trench (Atlantik)",
-      "9. South Sandwich Trench (Meteor Deep)",
-      "10. Peru-Chile-Graben (Richards Deep)"
-    ]
-  },
+{
+  "question": "39. Welche 6 Schauspieler*innen spielten zwischen 1962 und 2021 James Bond in offiziellen EON-Produktionen?",
+  "answers": [
+    "1. Sean Connery",
+    "2. George Lazenby",
+    "3. Roger Moore",
+    "4. Timothy Dalton",
+    "5. Pierce Brosnan",
+    "6. Daniel Craig"
+  ]
+}
+,
   {
     "question": "40. Nenne die 10 meistbesuchten Städte von internationalen Touristen (Stand: 2025).",
     "answers": [
@@ -602,36 +599,31 @@ const cards = [
       "10. Seoul"
     ]
   },
-  {
-    "question": "41. Nenne die 10 größten Sportstadien nach Kapazität (Stand: 2025).",
-    "answers": [
-      "1. Rungrado 1st of May Stadium (Pjöngjang)",
-      "2. Narendra Modi Stadium (Ahmedabad)",
-      "3. Michigan Stadium (Ann Arbor)",
-      "4. Beaver Stadium (State College)",
-      "5. Ohio Stadium (Columbus)",
-      "6. Kyle Field (College Station)",
-      "7. Tiger Stadium (Baton Rouge)",
-      "8. Neyland Stadium (Knoxville)",
-      "9. Darrell K Royal–Texas Memorial Stadium (Austin)",
-      "10. Bryant-Denny Stadium (Tuscaloosa)"
-    ]
-  },
-  {
-    "question": "42. Nenne die 10 längsten Straßentunnel der Welt (Stand: 2025).",
-    "answers": [
-      "1. Lærdalstunnel (Norwegen)",
-      "2. Yamate Tunnel (Japan)",
-      "3. Zhongnanshan-Tunnel (China)",
-      "4. Gotthard-Straßentunnel (Schweiz)",
-      "5. Jinpingshan-Tunnel (China)",
-      "6. Taipei Xinyi Road Tunnel (Taiwan)",
-      "7. Guadarrama-Tunnel (Spanien)",
-      "8. Arlberg Straßentunnel (Österreich)",
-      "9. Hsuehshan-Tunnel (Taiwan)",
-      "10. Mount Ovit Tunnel (Türkei)"
-    ]
-  },
+{
+  "question": "41. Welche 7 Pokémon-Typen existierten bereits in der allerersten Pokémon-Generation (Rot/Blau, 1996)?",
+  "answers": [
+    "1. Normal",
+    "2. Feuer",
+    "3. Wasser",
+    "4. Elektro",
+    "5. Pflanze",
+    "6. Psycho",
+    "7. Eis"
+  ]
+}
+,
+{
+  "question": "42. Welche 6 Schauspieler*innen spielten Mitglieder der Originalbesetzung der Avengers im Marvel Cinematic Universe (MCU, ab 'The Avengers', 2012)?",
+  "answers": [
+    "1. Robert Downey Jr. (Iron Man)",
+    "2. Chris Evans (Captain America)",
+    "3. Chris Hemsworth (Thor)",
+    "4. Mark Ruffalo (Hulk)",
+    "5. Scarlett Johansson (Black Widow)",
+    "6. Jeremy Renner (Hawkeye)"
+  ]
+}
+,
   {
     "question": "43. Nenne die 10 beliebtesten Programmiersprachen laut TIOBE-Index (Stand: 2025).",
     "answers": [
@@ -647,21 +639,22 @@ const cards = [
       "10. Assembly"
     ]
   },
-  {
-    "question": "44. Nenne die 10 meistgestreamten Künstler auf Spotify (gesamt) (Stand: 2025).",
-    "answers": [
-      "1. Drake",
-      "2. Bad Bunny",
-      "3. Taylor Swift",
-      "4. The Weeknd",
-      "5. Ed Sheeran",
-      "6. Ariana Grande",
-      "7. Eminem",
-      "8. Justin Bieber",
-      "9. Kanye West",
-      "10. BTS"
-    ]
-  },
+{
+  "question": "44. Welche 10 deutschsprachigen Podcasts waren 2024 laut Spotify die meistgehörten in Deutschland?",
+  "answers": [
+    "1. Gemischtes Hack",
+    "2. Mordlust",
+    "3. Kaulitz Hills",
+    "4. Mord auf Ex",
+    "5. Fest & Flauschig",
+    "6. LANZ & PRECHT",
+    "7. Baywatch Berlin",
+    "8. Dick & Doof",
+    "9. Edeltalk",
+    "10. Hotel Matze"
+  ]
+}
+,
   {
     "question": "45. Nenne die 10 beliebtesten Podcasts weltweit (Stand: 2025).",
     "answers": [
@@ -723,20 +716,21 @@ const cards = [
     ]
   },
   {
-    "question": "49. Nenne die 10 höchsten Wasserfälle der Welt (Stand: 2025).",
-    "answers": [
-      "1. Salto Ángel (Venezuela)",
-      "2. Tugela Falls (Südafrika)",
-      "3. Tres Hermanas Falls (Peru)",
-      "4. Olo’upena Falls (USA)",
-      "5. Yumbilla Falls (Peru)",
-      "6. Vinnufossen (Norwegen)",
-      "7. Balaifossen (Norwegen)",
-      "8. Pu'uka'oku Falls (USA)",
-      "9. James Bruce Falls (Kanada)",
-      "10. Browne Falls (Neuseeland)"
-    ]
-  },
+  "question": "49. Welche 10 Nintendo-Konsolen verkauften sich weltweit am häufigsten (Stand: Ende 2024)?",
+  "answers": [
+    "1. Nintendo DS – 154,02 Mio. Einheiten",
+    "2. Nintendo Switch – 146,04 Mio. Einheiten",
+    "3. Game Boy / Game Boy Color – 118,69 Mio. Einheiten",
+    "4. Wii – 101,63 Mio. Einheiten",
+    "5. Game Boy Advance – 81,51 Mio. Einheiten",
+    "6. Nintendo 3DS – 75,94 Mio. Einheiten",
+    "7. NES (Nintendo Entertainment System) – 61,91 Mio. Einheiten",
+    "8. SNES (Super Nintendo Entertainment System) – 49,10 Mio. Einheiten",
+    "9. Nintendo 64 – 32,93 Mio. Einheiten",
+    "10. Nintendo GameCube – 21,74 Mio. Einheiten"
+  ]
+}
+,
   {
     "question": "50. Nenne die 10 längsten Eisenbahnstrecken (Zugverbindungen) der Welt (Stand: 2025).",
     "answers": [
@@ -753,20 +747,16 @@ const cards = [
     ]
   },
   {
-    "question": "51. Nenne die 10 Länder mit der längsten Küstenlinie (Stand: 2025).",
-    "answers": [
-      "1. Kanada",
-      "2. Norwegen",
-      "3. Indonesien",
-      "4. Grönland (Dänemark)",
-      "5. Russland",
-      "6. Philippinen",
-      "7. Japan",
-      "8. Australien",
-      "9. USA",
-      "10. Neuseeland"
-    ]
-  },
+  "question": "51. Welche 5 Hauptcharaktere sind in der Originalbesetzung der Serie 'Friends' enthalten?",
+  "answers": [
+    "1. Rachel Green",
+    "2. Monica Geller",
+    "3. Phoebe Buffay",
+    "4. Joey Tribbiani",
+    "5. Chandler Bing"
+  ]
+}
+,
   {
     "question": "52. Nenne die 10 Länder mit den meisten Nobelpreisträgern (Stand: 2025).",
     "answers": [
@@ -827,21 +817,22 @@ const cards = [
       "10. Polen"
     ]
   },
-  {
-    "question": "56. Nenne die 10 beliebtesten Biermarken weltweit (Stand: 2025).",
-    "answers": [
-      "1. Snow (China)",
-      "2. Budweiser",
-      "3. Tsingtao",
-      "4. Bud Light",
-      "5. Heineken",
-      "6. Skol",
-      "7. Harbin",
-      "8. Yanjing",
-      "9. Coors Light",
-      "10. Corona"
-    ]
-  },
+{
+  "question": "56. Welche 10 Biermarken gehören zu den beliebtesten in Deutschland (Stand: 2024)?",
+  "answers": [
+    "1. Krombacher",
+    "2. Beck’s",
+    "3. Warsteiner",
+    "4. Erdinger",
+    "5. Bitburger",
+    "6. Veltins",
+    "7. Paulaner",
+    "8. Radeberger",
+    "9. Augustiner",
+    "10. Oettinger"
+  ]
+}
+,
   {
     "question": "57. Nenne die 10 größten Halbleiterhersteller nach Umsatz (Stand: 2025).",
     "answers": [
@@ -857,51 +848,40 @@ const cards = [
       "10. Texas Instruments"
     ]
   },
-  {
-    "question": "58. Nenne die 10 höchsten Berge Europas (Stand: 2025).",
-    "answers": [
-      "1. Elbrus",
-      "2. Dykh-Tau",
-      "3. Schchara",
-      "4. Koshtan-Tau",
-      "5. Kazbek",
-      "6. Mont Blanc",
-      "7. Ushba",
-      "8. Tetnuldi",
-      "9. Mont Maudit",
-      "10. Großglockner"
-    ]
-  },
-  {
-    "question": "59. Nenne die 10 größten Banken nach Bilanzsumme (Stand: 2025).",
-    "answers": [
-      "1. Industrial & Commercial Bank of China",
-      "2. China Construction Bank",
-      "3. Agricultural Bank of China",
-      "4. Bank of China",
-      "5. JPMorgan Chase",
-      "6. Mitsubishi UFJ Financial Group",
-      "7. HSBC Holdings",
-      "8. BNP Paribas",
-      "9. Bank of America",
-      "10. Crédit Agricole"
-    ]
-  },
-  {
-    "question": "60. Nenne die 10 schnellsten Züge im kommerziellen Betrieb (Stand: 2025).",
-    "answers": [
-      "1. Shanghai Maglev",
-      "2. CR400 ‘Fuxing’ (China HSR)",
-      "3. LGV Est V150 (Frankreich – Rekordfahrt)",
-      "4. ICE 3 (Deutschland)",
-      "5. Shinkansen E5/H5 (Japan)",
-      "6. Talgo Avril (Spanien)",
-      "7. Frecciarossa 1000 (Italien)",
-      "8. Korail KTX-II (Südkorea)",
-      "9. Eurostar e320",
-      "10. TGV POS"
-    ]
-  },
+{
+  "question": "58. Welche 5 deutschen Filme hatten bis Ende 2024 die höchsten Besucherzahlen in deutschen Kinos?",
+  "answers": [
+    "1. Der Schuh des Manitu (2001) – 11,7 Mio. Besucher",
+    "2. (T)Raumschiff Surprise – Periode 1 (2004) – 9,2 Mio. Besucher",
+    "3. Fack ju Göhte (2013) – 7,4 Mio. Besucher",
+    "4. Fack ju Göhte 2 (2015) – 7,7 Mio. Besucher",
+    "5. Das Boot (1981) – 5,8 Mio. Besucher"
+  ]
+},
+{
+  "question": "59. Welche 6 TikTok-Accounts hatten weltweit die meisten Follower im Jahr 2024?",
+  "answers": [
+    "1. Khaby Lame",
+    "2. Charli D’Amelio",
+    "3. Bella Poarch",
+    "4. MrBeast",
+    "5. Addison Rae",
+    "6. Zach King"
+  ]
+}
+,
+{
+  "question": "60. Welche 6 Videospiele haben laut Guinness World Records die meisten Tode durch Stürze ins Leere verursacht (Stand: 2023)?",
+  "answers": [
+    "1. Super Mario Bros.",
+    "2. Dark Souls",
+    "3. Elden Ring",
+    "4. Super Meat Boy",
+    "5. Celeste",
+    "6. Fall Guys"
+  ]
+}
+,
   {
     "question": "61. Nenne die 10 größten E-Commerce-Unternehmen nach GMV (Stand: 2025).",
     "answers": [
@@ -947,21 +927,17 @@ const cards = [
       "10. Learning Colors – Colorful Eggs"
     ]
   },
-  {
-    "question": "64. Nenne die 10 größten Versicherungsunternehmen nach Prämienvolumen (Stand: 2025).",
-    "answers": [
-      "1. UnitedHealth Group",
-      "2. Ping An Insurance",
-      "3. Allianz",
-      "4. AXA",
-      "5. China Life Insurance",
-      "6. Berkshire Hathaway (GEICO)",
-      "7. Anthem (Elevance Health)",
-      "8. Generali",
-      "9. People's Insurance Company of China",
-      "10. Assicurazioni Generali"
-    ]
-  },
+{
+  "question": "64. Welche 5 Künstler*innen hielten den Rekord für die kürzeste Zeit zwischen der Veröffentlichung eines Songs und dem Erreichen von Platz 1 der Billboard Hot 100 (unter 24 Stunden)?",
+  "answers": [
+    "1. BTS",
+    "2. Taylor Swift",
+    "3. Drake",
+    "4. Ariana Grande",
+    "5. Olivia Rodrigo"
+  ]
+}
+,
   {
     "question": "65. Nenne die 10 Länder mit der größten Kapazität erneuerbarer Energien (Stand: 2025).",
     "answers": [
@@ -1073,27 +1049,32 @@ const cards = [
       "7. Paris (2024)"
     ]
   },
-  {
-    "question": "73. Wie heißen die vier Gründer der Hogwarts-Schule für Hexerei und Zauberei? (Stand: 2025).",
-    "answers": [
-      "1. Godric Gryffindor",
-      "2. Salazar Slytherin",
-      "3. Rowena Ravenclaw",
-      "4. Helga Hufflepuff"
-    ]
-  },
-  {
-    "question": "74. Nenne die sieben traditionellen Farben des Regenbogens in korrekter Reihenfolge (Stand: 2025).",
-    "answers": [
-      "1. Rot",
-      "2. Orange",
-      "3. Gelb",
-      "4. Grün",
-      "5. Blau",
-      "6. Indigo",
-      "7. Violett"
-    ]
-  },
+{
+  "question": "73. Welche 6 Bücher wurden weltweit am häufigsten übersetzt (laut UNESCO Index Translationum, Stand: 2024)?",
+  "answers": [
+    "1. Die Bibel",
+    "2. Der kleine Prinz – Antoine de Saint-Exupéry",
+    "3. Pinocchio – Carlo Collodi",
+    "4. Alice im Wunderland – Lewis Carroll",
+    "5. Andersen’s Märchen – Hans Christian Andersen",
+    "6. Harry Potter und der Stein der Weisen – J.K. Rowling"
+  ]
+},
+{
+  "question": "79. Welche 10 Länder wiesen im Jahr 2024 die höchsten Scheidungsraten weltweit auf (gemessen an der Anzahl der Scheidungen pro 1.000 Einwohner)?",
+  "answers": [
+    "1. Malediven – 5,52",
+    "2. Kasachstan – 4,6",
+    "3. Russland – 3,9",
+    "4. Belgien – 3,7",
+    "5. Belarus – 3,7",
+    "6. Moldawien – 3,3",
+    "7. China – 3,2",
+    "8. Kuba – 2,9",
+    "9. Ukraine – 2,88",
+    "10. USA – 2,7"
+  ]
+},
   {
     "question": "75. Welche zehn Sprachen verfügen über die meisten Wikipedia-Artikel? (Stand: 2025).",
     "answers": [
@@ -1119,27 +1100,30 @@ const cards = [
       "5. Detective Conan"
     ]
   },
-  {
-    "question": "77. Nenne die acht Planeten des Sonnensystems in Reihenfolge ihrer Entfernung von der Sonne (Stand: 2025).",
-    "answers": [
-      "1. Merkur",
-      "2. Venus",
-      "3. Erde",
-      "4. Mars",
-      "5. Jupiter",
-      "6. Saturn",
-      "7. Uranus",
-      "8. Neptun"
-    ]
-  },
-  {
-    "question": "78. Welche drei Staaten sind vollständig von einem einzigen anderen Land umschlossen? (Stand: 2025).",
-    "answers": [
-      "1. Lesotho (von Südafrika umschlossen)",
-      "2. San Marino (von Italien umschlossen)",
-      "3. Vatikanstadt (von Italien umschlossen)"
-    ]
-  },
+{
+  "question": "78. Nenne die 7 Hauptzutaten von Nutella (laut Zutatenliste auf dem Glas, sortiert nach Mengenanteil, Stand: 2025 in Deutschland).",
+  "answers": [
+    "1. Zucker",
+    "2. Palmöl",
+    "3. Haselnüsse (13%)",
+    "4. fettarmer Kakao",
+    "5. Magermilchpulver",
+    "6. Emulgator (Lecithine, z. B. Soja)",
+    "7. Vanillin (Aroma)"
+  ]
+}
+,
+{
+  "question": "69. Welche 6 spezifischen Phobien gelten laut DSM-5 als klar definierte Angststörungen (Bezeichnung & Auslöser)?",
+  "answers": [
+    "1. Arachnophobie – Angst vor Spinnen",
+    "2. Trypanophobie – Angst vor Spritzen",
+    "3. Acrophobie – Angst vor Höhen",
+    "4. Claustrophobie – Angst vor engen Räumen",
+    "5. Emetophobie – Angst vor Erbrechen",
+    "6. Coulrophobie – Angst vor Clowns"
+  ]
+},
   {
     "question": "79. Nenne die fünf größten Schokoladenhersteller-Konzerne nach Umsatz (Stand: 2025).",
     "answers": [
@@ -1150,18 +1134,19 @@ const cards = [
       "5. The Hershey Company"
     ]
   },
-  {
-    "question": "80. Wie heißen die sieben Kontinente der Erde? (Stand: 2025).",
-    "answers": [
-      "1. Asien",
-      "2. Afrika",
-      "3. Nordamerika",
-      "4. Südamerika",
-      "5. Antarktika",
-      "6. Europa",
-      "7. Australien/Ozeanien"
-    ]
-  },
+{
+  "question": "80. Welche 7 Haushaltsgeräte verursachen in einem durchschnittlichen deutschen Haushalt den höchsten Stromverbrauch pro Jahr (laut BDEW, Stand: 2024)?",
+  "answers": [
+    "1. Kühlschrank",
+    "2. Gefrierschrank",
+    "3. Waschmaschine",
+    "4. Wäschetrockner",
+    "5. Geschirrspüler",
+    "6. Elektroherd",
+    "7. Fernseher"
+  ]
+}
+,
   {
     "question": "81. Nenne die zehn längsten Flüsse Europas (Stand: 2025).",
     "answers": [
@@ -1198,18 +1183,17 @@ const cards = [
       "6. Sri Lanka (Sri Jayawardenepura, Colombo wirtschaftliches Zentrum)"
     ]
   },
-  {
-    "question": "84. Wie heißen die sieben Sätze in Gustav Holsts Orchestersuite „Die Planeten“? (Stand: 2025).",
-    "answers": [
-      "1. Mars, der Kriegsbringer",
-      "2. Venus, die Friedensbringerin",
-      "3. Merkur, der geflügelte Bote",
-      "4. Jupiter, der Freudenbringer",
-      "5. Saturn, der Ernährer",
-      "6. Uranus, der Magier",
-      "7. Neptun, der Mystiker"
-    ]
-  },
+{
+  "question": "84. Welche 5 Gegenstände im Haushalt enthalten laut Studien am meisten Bakterien (mehr als auf einer durchschnittlichen Toilettenbrille)?",
+  "answers": [
+    "1. Spülschwamm",
+    "2. Schneidebrett (Holz oder Plastik)",
+    "3. Kühlschrankgriff",
+    "4. Zahnbürstenhalter",
+    "5. Fernbedienung"
+  ]
+}
+,
   {
     "question": "85. Welche fünf Streaming-Dienste haben weltweit die meisten Abonnenten? (Stand: 2025).",
     "answers": [
