@@ -179,21 +179,19 @@ const cards = [
       "10. Vereinigtes Königreich"
     ]
   },
-  {
-    "question": "13. Nenne die 10 höchsten Berge der Erde (Stand: 2025).",
-    "answers": [
-      "1. Mount Everest",
-      "2. K2",
-      "3. Kangchendzönga",
-      "4. Lhotse",
-      "5. Makalu",
-      "6. Cho Oyu",
-      "7. Dhaulagiri I",
-      "8. Manaslu",
-      "9. Nanga Parbat",
-      "10. Annapurna I"
-    ]
-  },
+{
+  "question": "13. Welche 7 Lebensmittel gehören laut Welternährungsorganisation (FAO) im Jahr 2024 zu den am häufigsten konsumierten Grundnahrungsmitteln der Welt (nach Verbrauch in Tonnen)?",
+  "answers": [
+    "1. Reis",
+    "2. Mais",
+    "3. Weizen",
+    "4. Zucker",
+    "5. Kartoffeln",
+    "6. Soja",
+    "7. Bananen"
+  ]
+}
+,
   {
     "question": "14. Nenne die Top 10 bekannten Superhelden (Stand: 2025).",
     "answers": [
@@ -239,21 +237,19 @@ const cards = [
       "10. Valentinstag (14. Februar)"
     ]
   },
-  {
-    "question": "17. Nenne die Top 10 bekannten Chemieelemente (Stand: 2025).",
-    "answers": [
-      "1. Sauerstoff",
-      "2. Wasserstoff",
-      "3. Kohlenstoff",
-      "4. Stickstoff",
-      "5. Helium",
-      "6. Eisen",
-      "7. Gold",
-      "8. Kupfer",
-      "9. Kalzium",
-      "10. Uran"
-    ]
-  },
+{
+  "question": "17. Welche 7 Schulfächer wurden laut bundesweiten Schülerbefragungen in Deutschland 2024 am häufigsten als „unbeliebt“ oder „nervig“ bewertet?",
+  "answers": [
+    "1. Mathematik",
+    "2. Physik",
+    "3. Chemie",
+    "4. Latein",
+    "5. Geschichte",
+    "6. Religion/Ethik",
+    "7. Musik (bei älteren Jahrgängen)"
+  ]
+}
+,
 {
   "question": "18. Welche 10 Hunderassen wurden im Jahr 2024 in Deutschland am häufigsten bei TASSO registriert?",
   "answers": [
@@ -347,18 +343,18 @@ const cards = [
     ]
   },
   {
-    "question": "24. Nenne die 10 größten Wüsten der Erde (Stand: 2025).",
-    "answers": [
-      "1. Antarktische Eiswüste",
-      "2. Arktische Eiswüste",
-      "3. Sahara",
-      "4. Große Arabische Wüste",
-      "5. Gobi",
-      "6. Patagonische Wüste",
-      "7. Große Viktoriawüste",
-      "8. Kalahari",
-      "9. Sonora-Mojave-Wüste",
-      "10. Karakum"
+  "question": "24. Welche 10 Emojis wurden im Jahr 2024 in Deutschland am häufigsten verwendet (laut Analyse von über 280 Millionen Nachrichten)?",
+  "answers": [
+    "1. 😂 Gesicht mit Freudentränen",
+    "2. 🤣 Lachendes Gesicht auf dem Boden rollend",
+    "3. 😉 Zwinkerndes Gesicht",
+    "4. 😍 Gesicht mit Herzaugen",
+    "5. ❤️ Rotes Herz",
+    "6. 😅 Lächelndes Gesicht mit Schweißtropfen",
+    "7. 😘 Kuss zuwerfendes Gesicht",
+    "8. 😭 Laut weinendes Gesicht",
+    "9. 😊 Lächelndes Gesicht mit lächelnden Augen",
+    "10.😎"
     ]
   },
   {
@@ -622,21 +618,18 @@ const cards = [
   ]
 }
 ,
-  {
-    "question": "43. Nenne die 10 beliebtesten Programmiersprachen laut TIOBE-Index (Stand: 2025).",
-    "answers": [
-      "1. Python",
-      "2. C",
-      "3. C++",
-      "4. Java",
-      "5. C#",
-      "6. JavaScript",
-      "7. Visual Basic",
-      "8. SQL",
-      "9. Go",
-      "10. Assembly"
-    ]
-  },
+{
+  "question": "95. Welche 7 Erkrankungen führten im Jahr 2024 in Deutschland am häufigsten zu Krankschreibungen (gemessen an der Anzahl der Arbeitsunfähigkeitstage)?",
+  "answers": [
+    "1. Atemwegserkrankungen (z. B. Erkältung, Grippe, Bronchitis)",
+    "2. Muskel- und Skeletterkrankungen (z. B. Rückenschmerzen, Bandscheibenvorfälle)",
+    "3. Psychische Erkrankungen (z. B. Depressionen, Angststörungen)",
+    "4. Verletzungen und Vergiftungen (z. B. Knochenbrüche, Schnittwunden)",
+    "5. Erkrankungen des Verdauungssystems (z. B. Magen-Darm-Infekte)",
+    "6. Herz-Kreislauf-Erkrankungen (z. B. Bluthochdruck, Herzinfarkt)",
+    "7. Infektionskrankheiten (z. B. COVID-19, Influenza)"
+  ]
+},
 {
   "question": "44. Welche 10 deutschsprachigen Podcasts waren 2024 laut Spotify die meistgehörten in Deutschland?",
   "answers": [
