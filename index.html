@@ -49,7 +49,7 @@
       z-index: 2;
     }
     .card.slide-out {
-      transform: translateY(100%);
+      /* transform entfernt, wir nutzen inline-transform für Richtung */
       opacity: 0;
     }
     .question {
@@ -71,34 +71,15 @@
       font-size: 16px;
       padding-left: 10px;
     }
-    .refresh-button {
-      position: absolute;
-      bottom: 20px; left: 50%;
-      transform: translateX(-50%);
-      width: 160px; height: 50px;
-      font-size: 18px; font-weight: 600;
-      border: none; border-radius: 25px;
-      background: #fff; color: #000;
-      cursor: pointer;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-      z-index: 10;
-      transition: background 0.3s ease;
-    }
-    .refresh-button:hover {
-      background: #eee;
-    }
   </style>
 </head>
 <body>
-  <div class="container" id="container">
-    <button class="refresh-button" id="nextBtn">↻ Neue Karte</button>
-  </div>
+  <div class="container" id="container"></div>
 
   <!-- Externe JS-Datei mit deinen Fragen & Antworten -->
   <script src="quizzehn_cards.js"></script>
   <script>
     const container = document.getElementById('container');
-    const nextBtn   = document.getElementById('nextBtn');
     let currentIndex = -1;
 
     function makeCard(idx) {
@@ -109,6 +90,7 @@
         <div class="question">${c.question}</div>
         <ul>${c.answers.map(a => `<li>${a}</li>`).join('')}</ul>
       `;
+      attachDrag(card);
       return card;
     }
 
@@ -124,21 +106,15 @@
       currentIndex = first;
     }
 
-    function onNext() {
-      const cardsInDom = Array.from(container.querySelectorAll('.card'));
-      if (!cardsInDom.length) return;
-      const topCard = cardsInDom.reduce((a,b) =>
-        (+a.style.zIndex > +b.style.zIndex ? a : b)
-      );
-      topCard.classList.add('slide-out');
-      setTimeout(() => {
-        topCard.remove();
-        const newIdx  = getNextIndex();
-        const newCard = makeCard(newIdx);
-        newCard.style.zIndex = 1;
-        container.querySelectorAll('.card').forEach(c=>c.style.zIndex = 2);
-        container.insertBefore(newCard, nextBtn);
-      }, 500);
+    function loadNext() {
+      const newIdx  = getNextIndex();
+      const newCard = makeCard(newIdx);
+      newCard.style.zIndex = 1;
+      // alle vorhandenen Karten eine Ebene nach oben
+      container.querySelectorAll('.card').forEach(c => {
+        c.style.zIndex = parseInt(c.style.zIndex) + 1;
+      });
+      container.appendChild(newCard);
     }
 
     function getNextIndex() {
@@ -149,8 +125,46 @@
       return idx;
     }
 
+    function attachDrag(card) {
+      let startX, startY, dx = 0, dy = 0, dragging = false;
+      const threshold = 100;
+
+      card.addEventListener('pointerdown', e => {
+        dragging = true;
+        startX = e.clientX;
+        startY = e.clientY;
+        card.setPointerCapture(e.pointerId);
+        card.style.transition = ''; // Transition während Drag aus
+      });
+
+      card.addEventListener('pointermove', e => {
+        if (!dragging) return;
+        dx = e.clientX - startX;
+        dy = e.clientY - startY;
+        card.style.transform = `translate(${dx}px, ${dy}px) rotate(${dx * 0.05}deg)`;
+      });
+
+      card.addEventListener('pointerup', e => {
+        if (!dragging) return;
+        dragging = false;
+        card.releasePointerCapture(e.pointerId);
+        if (Math.abs(dx) > threshold || Math.abs(dy) > threshold) {
+          // Ausblenden und nächste laden
+          card.classList.add('slide-out');
+          card.style.transform = `translate(${dx * 2}px, ${dy * 2}px)`;
+          setTimeout(() => {
+            card.remove();
+            loadNext();
+          }, 500);
+        } else {
+          // zurück zur Mitte
+          card.style.transition = 'transform 0.3s ease';
+          card.style.transform = 'translate(0, 0)';
+        }
+      });
+    }
+
     initStack();
-    nextBtn.addEventListener('click', onNext);
   </script>
 </body>
 </html>
