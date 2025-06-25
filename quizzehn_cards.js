@@ -180,7 +180,7 @@ const cards = [
     ]
   },
 {
-  "question": "13. Welche 7 Lebensmittel gehören laut Welternährungsorganisation (FAO) im Jahr 2024 zu den am häufigsten konsumierten Grundnahrungsmitteln der Welt (nach Verbrauch in Tonnen)?",
+  "question": "13. Welche 7 Lebensmittel gehören laut Welternährungsorganisation (FAO) im Jahr 2024 zu den am häufigsten konsumierten Grundnahrungsmitteln der Welt?",
   "answers": [
     "1. Reis",
     "2. Mais",
@@ -270,7 +270,7 @@ const cards = [
   /* ----------------------------- 50 neue Karten ----------------------------- */
 
 {
-  "question": "19. Welche 10 Vornamen wurden im Jahr 2024 in Deutschland am häufigsten vergeben (laut Auswertung von Knud Bielefeld)?",
+  "question": "19. Welche 10 Vornamen wurden im Jahr 2024 in Deutschland am häufigsten vergeben?",
   "answers": [
     "1. Emilia",
     "2. Sophia",
@@ -286,7 +286,7 @@ const cards = [
 }
 ,
 {
-  "question": "20. Welche 10 Vornamen gelten im Jahr 2025 weltweit als die häufigsten (nach geschätzter Gesamtzahl der Namensträger)?",
+  "question": "20. Welche 10 Vornamen gelten im Jahr 2025 weltweit als die häufigsten?",
   "answers": [
     "1. Mohammed (inkl. Varianten wie Muhammad, Mohamed, Mehmet)",
     "2. Maria",
@@ -343,7 +343,7 @@ const cards = [
     ]
   },
   {
-  "question": "24. Welche 10 Emojis wurden im Jahr 2024 in Deutschland am häufigsten verwendet (laut Analyse von über 280 Millionen Nachrichten)?",
+  "question": "24. Welche 10 Emojis wurden im Jahr 2024 in Deutschland am häufigsten verwendet?",
   "answers": [
     "1. 😂 Gesicht mit Freudentränen",
     "2. 🤣 Lachendes Gesicht auf dem Boden rollend",
@@ -491,21 +491,22 @@ const cards = [
       "10. Ellesmere-Insel"
     ]
   },
-  {
-    "question": "34. Nenne die 10 schnellsten Vögel im Flug (Stand: 2025).",
-    "answers": [
-      "1. Wanderfalke",
-      "2. Weißkehlsegler",
-      "3. Sturmschwalbe",
-      "4. Mauersegler",
-      "5. Spornkiebitz",
-      "6. Gämsevogel (Gyrfalke)",
-      "7. Rotkopfmauersegler",
-      "8. Goldregenpfeifer",
-      "9. Kanadakranich",
-      "10. Felsenhuhn"
-    ]
-  },
+{
+  "question": "34. Welche 10 Disney-Filme erzielten bis einschließlich 2025 das höchste weltweite Einspielergebnis?",
+  "answers": [
+    "1. Inside Out 2 (2024) – 1,698 Mrd. USD",
+    "2. Der König der Löwen (2019) – 1,657 Mrd. USD",
+    "3. Die Eiskönigin II (2019) – 1,450 Mrd. USD",
+    "4. Die Eiskönigin – Völlig unverfroren (2013) – 1,280 Mrd. USD",
+    "5. Die Schöne und das Biest (2017) – 1,266 Mrd. USD",
+    "6. Die Unglaublichen 2 (2018) – 1,244 Mrd. USD",
+    "7. Toy Story 4 (2019) – 1,073 Mrd. USD",
+    "8. Toy Story 3 (2010) – 1,067 Mrd. USD",
+    "9. Pirates of the Caribbean: Am Ende der Welt (2007) – 963 Mio. USD",
+    "10. Vaiana 2 (2024) – 1,058 Mrd. USD"
+  ]
+}
+,
   {
     "question": "35. Nenne die 10 meistverkauften Videospielkonsolen aller Zeiten (Stand: 2025).",
     "answers": [
@@ -521,21 +522,22 @@ const cards = [
       "10. Game Boy Advance"
     ]
   },
-  {
-    "question": "36. Nenne die 10 meistverkauften Musikalben aller Zeiten (Stand: 2025).",
-    "answers": [
-      "1. Thriller – Michael Jackson",
-      "2. Back in Black – AC/DC",
-      "3. The Dark Side of the Moon – Pink Floyd",
-      "4. Their Greatest Hits (1971-1975) – Eagles",
-      "5. Bat Out of Hell – Meat Loaf",
-      "6. Greatest Hits – Queen",
-      "7. Led Zeppelin IV – Led Zeppelin",
-      "8. Rumours – Fleetwood Mac",
-      "9. Come On Over – Shania Twain",
-      "10. 21 – Adele"
-    ]
-  },
+{
+  "question": "36. Welche 10 Wörter kommen laut Auswertungen des Dudenkorpus am häufigsten in deutschsprachigen Texten vor (Stand: 2025)?",
+  "answers": [
+    "1. der",
+    "2. die",
+    "3. und",
+    "4. in",
+    "5. zu",
+    "6. das",
+    "7. nicht",
+    "8. von",
+    "9. sie",
+    "10. ist"
+  ]
+}
+,
   {
     "question": "37. Nenne die 10 erfolgreichsten Filmfranchises nach Einspielergebnis (Stand: 2025).",
     "answers": [
@@ -551,23 +553,23 @@ const cards = [
       "10. X-Men"
     ]
   },
-  {
-    "question": "38. Nenne die 10 höchsten Wolkenkratzer Europas (Stand: 2025).",
-    "answers": [
-      "1. Lakhta Center (Russland)",
-      "2. Varso Tower (Polen)",
-      "3. Federation Tower (Vostok) (Russland)",
-      "4. OKO Tower (Russland)",
-      "5. Neva Tower 2 (Russland)",
-      "6. The Shard (UK)",
-      "7. Mercury City Tower (Russland)",
-      "8. Eurasia Tower (Russland)",
-      "9. Triumph Palace (Russland)",
-      "10. Torre UniCredit (Italien)"
-    ]
-  },
 {
-  "question": "39. Welche 6 Schauspieler*innen spielten zwischen 1962 und 2021 James Bond in offiziellen EON-Produktionen?",
+  "question": "38. Welche 10 Wörter wurden zwischen 2015 und 2024 in Deutschland jeweils zum ‚Jugendwort des Jahres‘ gewählt?",
+  "answers": [
+    "1. 2024 – Aura",
+    "2. 2023 – Goofy",
+    "3. 2022 – Smash",
+    "4. 2021 – Cringe",
+    "5. 2020 – Lost",
+    "6. 2019 – (Keine Wahl durchgeführt)",
+    "7. 2018 – Ehrenmann / Ehrenfrau",
+    "8. 2017 – I bims",
+    "9. 2016 – Fly sein",
+    "10. 2015 – Smombie"
+  ]
+},
+{
+  "question": "39. Welche 6 Schauspieler*innen spielten zwischen 1962 und 2021 James Bond?",
   "answers": [
     "1. Sean Connery",
     "2. George Lazenby",
@@ -607,7 +609,7 @@ const cards = [
 }
 ,
 {
-  "question": "42. Welche 6 Schauspieler*innen spielten Mitglieder der Originalbesetzung der Avengers im Marvel Cinematic Universe (MCU, ab 'The Avengers', 2012)?",
+  "question": "42. Welche 6 Schauspieler*innen spielten Mitglieder der Originalbesetzung der Avengers im Marvel Cinematic Universe 2012?",
   "answers": [
     "1. Robert Downey Jr. (Iron Man)",
     "2. Chris Evans (Captain America)",
@@ -619,7 +621,7 @@ const cards = [
 }
 ,
 {
-  "question": "95. Welche 7 Erkrankungen führten im Jahr 2024 in Deutschland am häufigsten zu Krankschreibungen (gemessen an der Anzahl der Arbeitsunfähigkeitstage)?",
+  "question": "95. Welche 7 Erkrankungen führten im Jahr 2024 in Deutschland am häufigsten zu Krankschreibungen?",
   "answers": [
     "1. Atemwegserkrankungen (z. B. Erkältung, Grippe, Bronchitis)",
     "2. Muskel- und Skeletterkrankungen (z. B. Rückenschmerzen, Bandscheibenvorfälle)",
@@ -676,36 +678,38 @@ const cards = [
       "10. Frankreich"
     ]
   },
-  {
-    "question": "47. Nenne die 10 größten Ölproduzenten (Barrel pro Tag) (Stand: 2025).",
-    "answers": [
-      "1. USA",
-      "2. Saudi-Arabien",
-      "3. Russland",
-      "4. Kanada",
-      "5. Irak",
-      "6. China",
-      "7. Vereinigte Arabische Emirate",
-      "8. Brasilien",
-      "9. Iran",
-      "10. Kuwait"
-    ]
-  },
-  {
-    "question": "48. Nenne die 10 größten Kaffeeproduzenten weltweit (Stand: 2025).",
-    "answers": [
-      "1. Brasilien",
-      "2. Vietnam",
-      "3. Kolumbien",
-      "4. Indonesien",
-      "5. Honduras",
-      "6. Äthiopien",
-      "7. Indien",
-      "8. Uganda",
-      "9. Peru",
-      "10. Mexiko"
-    ]
-  },
+{
+  "question": "47. Welche 10 Gewürze gehören weltweit zu den am häufigsten verwendeten in der Küche (Stand: 2024)?",
+  "answers": [
+    "1. Salz",
+    "2. Schwarzer Pfeffer",
+    "3. Paprika (edelsüß, scharf oder geräuchert)",
+    "4. Knoblauch (getrocknet, Pulver, Granulat)",
+    "5. Kreuzkümmel",
+    "6. Kurkuma",
+    "7. Zimt",
+    "8. Ingwer (getrocknet oder gemahlen)",
+    "9. Chili (Pulver oder Flocken)",
+    "10. Oregano"
+  ]
+}
+,
+{
+  "question": "48. Welche 10 Küchenutensilien gehören weltweit zur Standardausstattung der meisten Haushalte (Stand: 2024)?",
+  "answers": [
+    "1. Schneidebrett",
+    "2. Küchenmesser",
+    "3. Kochlöffel (meist Holz oder Silikon)",
+    "4. Pfanne",
+    "5. Kochtopf mit Deckel",
+    "6. Schüssel (z. B. Rühr- oder Salatschüssel)",
+    "7. Sieb oder Abtropfsieb",
+    "8. Messbecher",
+    "9. Reibe (z. B. für Käse oder Gemüse)",
+    "10. Dosenöffner"
+  ]
+}
+,
   {
   "question": "49. Welche 10 Nintendo-Konsolen verkauften sich weltweit am häufigsten (Stand: Ende 2024)?",
   "answers": [
@@ -723,7 +727,7 @@ const cards = [
 }
 ,
 {
-  "question": "80. Welche 7 Filme haben bis einschließlich 2024 die meisten Oscars in der Geschichte der Academy Awards gewonnen (mindestens 11 Auszeichnungen)?",
+  "question": "80. Welche 7 Filme haben bis einschließlich 2024 die meisten Oscars in der Geschichte der Academy Awards gewonnen?",
   "answers": [
     "1. Ben Hur (1959) – 11 Oscars",
     "2. Titanic (1997) – 11 Oscars",
@@ -761,21 +765,22 @@ const cards = [
       "10. Schweiz"
     ]
   },
-  {
-    "question": "53. Nenne die 10 größten Automobilmärkte nach Verkaufszahlen (Stand: 2025).",
-    "answers": [
-      "1. China",
-      "2. USA",
-      "3. Indien",
-      "4. Japan",
-      "5. Deutschland",
-      "6. Brasilien",
-      "7. Frankreich",
-      "8. Großbritannien",
-      "9. Südkorea",
-      "10. Russland"
-    ]
-  },
+{
+  "question": "53. Welche 10 Länder verzeichneten im Jahr 2024 die höchsten durchschnittlichen Arbeitszeiten pro Woche?",
+  "answers": [
+    "1. Bhutan – 54,4 Stunden/Woche",
+    "2. Vereinigte Arabische Emirate – 50,9 Stunden/Woche",
+    "3. Lesotho – 50,4 Stunden/Woche",
+    "4. Bangladesch – 49,7 Stunden/Woche",
+    "5. Pakistan – 47,6 Stunden/Woche",
+    "6. Mexiko – 42,4 Stunden/Woche",
+    "7. Costa Rica – 41,8 Stunden/Woche",
+    "8. Südkorea – 40,8 Stunden/Woche",
+    "9. Griechenland – 40,5 Stunden/Woche",
+    "10. Indien – 40,2 Stunden/Woche"
+  ]
+}
+,
   {
     "question": "54. Nenne die 10 Länder mit der höchsten Lebenserwartung (Stand: 2025).",
     "answers": [
@@ -822,21 +827,22 @@ const cards = [
   ]
 }
 ,
-  {
-    "question": "57. Nenne die 10 größten Halbleiterhersteller nach Umsatz (Stand: 2025).",
-    "answers": [
-      "1. TSMC",
-      "2. Samsung Electronics",
-      "3. Intel",
-      "4. Qualcomm",
-      "5. SK Hynix",
-      "6. Micron Technology",
-      "7. Broadcom",
-      "8. NVIDIA",
-      "9. AMD",
-      "10. Texas Instruments"
-    ]
-  },
+{
+  "question": "57. Welche 10 Länder produzierten im Jahr 2024 laut OECD die größte Menge an Haushaltsmüll pro Person?",
+  "answers": [
+    "1. Dänemark – ca. 845 kg/Jahr",
+    "2. USA – ca. 812 kg/Jahr",
+    "3. Australien – ca. 794 kg/Jahr",
+    "4. Schweiz – ca. 780 kg/Jahr",
+    "5. Norwegen – ca. 768 kg/Jahr",
+    "6. Luxemburg – ca. 755 kg/Jahr",
+    "7. Deutschland – ca. 745 kg/Jahr",
+    "8. Kanada – ca. 732 kg/Jahr",
+    "9. Irland – ca. 721 kg/Jahr",
+    "10. Österreich – ca. 707 kg/Jahr"
+  ]
+}
+,
 {
   "question": "58. Welche 5 deutschen Filme hatten bis Ende 2024 die höchsten Besucherzahlen in deutschen Kinos?",
   "answers": [
@@ -942,21 +948,22 @@ const cards = [
       "10. Frankreich"
     ]
   },
-  {
-    "question": "66. Nenne die 10 größten Exportländer nach Warenwert (Stand: 2025).",
-    "answers": [
-      "1. China",
-      "2. USA",
-      "3. Deutschland",
-      "4. Japan",
-      "5. Niederlande",
-      "6. Südkorea",
-      "7. Hongkong",
-      "8. Italien",
-      "9. Frankreich",
-      "10. Belgien"
-    ]
-  },
+{
+  "question": "66. Welche 10 Städte verzeichnen weltweit die höchsten täglichen Fußgängerzahlen in ihren zentralen Bereichen (Stand: 2025)?",
+  "answers": [
+    "1. Tokio (Shibuya Crossing) – bis zu 500.000 Fußgänger täglich",
+    "2. New York City (Times Square) – ca. 360.000 Fußgänger täglich",
+    "3. Paris (Champs-Élysées) – über 300.000 Fußgänger täglich",
+    "4. Barcelona (La Rambla) – ca. 200.000 Fußgänger täglich",
+    "5. London (Oxford Street) – über 200.000 Fußgänger täglich",
+    "6. Seoul (Myeongdong) – ca. 150.000 Fußgänger täglich",
+    "7. Istanbul (Istiklal-Straße) – über 100.000 Fußgänger täglich",
+    "8. Shanghai (Nanjing Road) – ca. 100.000 Fußgänger täglich",
+    "9. Sydney (Pitt Street Mall) – über 60.000 Fußgänger täglich",
+    "10. Aarhus (Strøget) – ca. 47.000 Fußgänger täglich"
+  ]
+}
+,
   {
     "question": "67. Nenne die 10 größten Filmstudios nach Umsatz (Stand: 2025).",
     "answers": [
@@ -1050,7 +1057,7 @@ const cards = [
   ]
 },
 {
-  "question": "79. Welche 10 Länder wiesen im Jahr 2024 die höchsten Scheidungsraten weltweit auf (gemessen an der Anzahl der Scheidungen pro 1.000 Einwohner)?",
+  "question": "79. Welche 10 Länder wiesen im Jahr 2024 die höchsten Scheidungsraten weltweit auf?",
   "answers": [
     "1. Malediven – 5,52",
     "2. Kasachstan – 4,6",
@@ -1136,21 +1143,22 @@ const cards = [
   ]
 }
 ,
-  {
-    "question": "81. Nenne die zehn längsten Flüsse Europas (Stand: 2025).",
-    "answers": [
-      "1. Wolga",
-      "2. Donau",
-      "3. Dnjepr",
-      "4. Kama",
-      "5. Petschora",
-      "6. Nördliche Dwina",
-      "7. Ural",
-      "8. Dnestr",
-      "9. Rhein",
-      "10. Wytschegda"
-    ]
-  },
+{
+  "question": "81. Welche 10 Fast-Food-Ketten erzielten im Jahr 2024 weltweit den höchsten Umsatz?",
+  "answers": [
+    "1. McDonald's – ca. 53,5 Mrd. USD",
+    "2. Starbucks – ca. 30,4 Mrd. USD",
+    "3. Chick-fil-A – ca. 22,0 Mrd. USD",
+    "4. KFC – ca. 31,3 Mrd. USD",
+    "5. Burger King – ca. 23,4 Mrd. USD",
+    "6. Subway – ca. 16,1 Mrd. USD",
+    "7. Domino's Pizza – ca. 12,9 Mrd. USD",
+    "8. Pizza Hut – ca. 17,7 Mrd. USD",
+    "9. Dunkin' – ca. 1,37 Mrd. USD",
+    "10. Wendy's – ca. 1,9 Mrd. USD"
+  ]
+}
+,
   {
     "question": "82. Welche fünf Tiere bilden die sogenannten „Big Five“ Afrikas? (Stand: 2025).",
     "answers": [
@@ -1173,7 +1181,7 @@ const cards = [
     ]
   },
 {
-  "question": "84. Welche 5 Gegenstände im Haushalt enthalten laut Studien am meisten Bakterien (mehr als auf einer durchschnittlichen Toilettenbrille)?",
+  "question": "84. Welche 5 Gegenstände im Haushalt enthalten laut Studien am meisten Bakterien?",
   "answers": [
     "1. Spülschwamm",
     "2. Schneidebrett (Holz oder Plastik)",
@@ -1228,5 +1236,35 @@ const cards = [
       "9. Siedler von Catan",
       "10. Pictionary"
     ]
+ },
+  {
+    "question": "89. Nenne die 10 weltweit meistgeladenen Smartphone-Apps des Jahres 2024.",
+    "answers": [
+      "1. TikTok",
+      "2. Instagram",
+      "3. Facebook",
+      "4. WhatsApp",
+      "5. Telegram",
+      "6. CapCut",
+      "7. Snapchat",
+      "8. Facebook Messenger",
+      "9. Spotify",
+      "10. Zoom"
+    ]
+  },
+  {
+    "question": "90. Nenne die 10 Vereine mit den meisten Titeln in der UEFA Champions League (Stand: Saison 2024/25).",
+    "answers": [
+      "1. Real Madrid",
+      "2. AC Mailand",
+      "3. FC Bayern München",
+      "4. FC Liverpool",
+      "5. FC Barcelona",
+      "6. Ajax Amsterdam",
+      "7. Manchester United",
+      "8. Inter Mailand",
+      "9. Chelsea FC",
+      "10. Benfica Lissabon"
+    ]
   }
-];
+]

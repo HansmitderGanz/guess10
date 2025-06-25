@@ -38,23 +38,20 @@
       box-sizing: border-box;
       color: #fff;
       text-align: center;
-      font-size: 18px;
       font-weight: 600;
       display: flex;
       flex-direction: column;
       align-items: center;
       box-shadow: 0 0 15px rgba(0,0,0,0.3);
-      transform: translateY(0);
       transition: transform 0.5s ease, opacity 0.5s ease;
-      z-index: 2;
+      overflow: hidden;
     }
     .card.slide-out {
-      /* transform entfernt, wir nutzen inline-transform für Richtung */
       opacity: 0;
     }
     .question {
-      margin-bottom: 16px;
-      font-size: 20px;
+      margin-bottom: 12px;
+      font-size: 16px;
     }
     ul {
       list-style: none;
@@ -63,20 +60,28 @@
       text-align: left;
       width: 100%;
       flex-grow: 1;
-      overflow-y: auto;
     }
     li {
-      margin: 6px 0;
+      margin: 4px 0;
+      padding: 8px 10px;
       font-weight: 400;
-      font-size: 16px;
-      padding-left: 10px;
+      line-height: 1.2;
+      overflow-wrap: break-word;
+      word-break: break-word;
+      border-radius: 4px;
+    }
+    /* Abwechselnde Hintergrundfarben für bessere Lesbarkeit */
+    ul li:nth-child(odd) {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    ul li:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.2);
     }
   </style>
 </head>
 <body>
   <div class="container" id="container"></div>
 
-  <!-- Externe JS-Datei mit deinen Fragen & Antworten -->
   <script src="quizzehn_cards.js"></script>
   <script>
     const container = document.getElementById('container');
@@ -94,15 +99,46 @@
       return card;
     }
 
+    // Binary Search für größte passende Font-Size mit Mindestgröße 12px
+    function adjustAnswerFontSize(card) {
+      const questionEl = card.querySelector('.question');
+      const ul = card.querySelector('ul');
+      const items = ul.querySelectorAll('li');
+
+      // Verfügbarer Platz berechnen
+      const availableHeight = card.clientHeight
+        - questionEl.offsetHeight
+        - (items.length - 1) * 8 // Margin + Padding (4px oben + 4px unten)
+        - 16;                    // Puffer
+
+      let low = 12, high = 18, best = low;
+      while (low <= high) {
+        const mid = Math.floor((low + high) / 2);
+        items.forEach(li => li.style.fontSize = `${mid}px`);
+        if (ul.scrollHeight <= availableHeight) {
+          best = mid;
+          low = mid + 1;
+        } else {
+          high = mid - 1;
+        }
+      }
+      items.forEach(li => li.style.fontSize = `${best}px`);
+    }
+
     function initStack() {
       const first  = getNextIndex();
       const second = getNextIndex();
-      const under  = makeCard(second);
+
+      const under = makeCard(second);
       under.style.zIndex = 1;
-      const top    = makeCard(first);
-      top.style.zIndex = 2;
       container.appendChild(under);
+      requestAnimationFrame(() => adjustAnswerFontSize(under));
+
+      const top = makeCard(first);
+      top.style.zIndex = 2;
       container.appendChild(top);
+      requestAnimationFrame(() => adjustAnswerFontSize(top));
+
       currentIndex = first;
     }
 
@@ -110,11 +146,10 @@
       const newIdx  = getNextIndex();
       const newCard = makeCard(newIdx);
       newCard.style.zIndex = 1;
-      // alle vorhandenen Karten eine Ebene nach oben
-      container.querySelectorAll('.card').forEach(c => {
-        c.style.zIndex = parseInt(c.style.zIndex) + 1;
-      });
+      container.querySelectorAll('.card')
+        .forEach(c => c.style.zIndex = parseInt(c.style.zIndex) + 1);
       container.appendChild(newCard);
+      requestAnimationFrame(() => adjustAnswerFontSize(newCard));
     }
 
     function getNextIndex() {
@@ -134,7 +169,7 @@
         startX = e.clientX;
         startY = e.clientY;
         card.setPointerCapture(e.pointerId);
-        card.style.transition = ''; // Transition während Drag aus
+        card.style.transition = '';
       });
 
       card.addEventListener('pointermove', e => {
@@ -149,7 +184,6 @@
         dragging = false;
         card.releasePointerCapture(e.pointerId);
         if (Math.abs(dx) > threshold || Math.abs(dy) > threshold) {
-          // Ausblenden und nächste laden
           card.classList.add('slide-out');
           card.style.transform = `translate(${dx * 2}px, ${dy * 2}px)`;
           setTimeout(() => {
@@ -157,7 +191,6 @@
             loadNext();
           }, 500);
         } else {
-          // zurück zur Mitte
           card.style.transition = 'transform 0.3s ease';
           card.style.transform = 'translate(0, 0)';
         }
