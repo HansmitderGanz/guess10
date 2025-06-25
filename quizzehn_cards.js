@@ -345,15 +345,15 @@ const cards = [
   {
   "question": "24. Welche 10 Emojis wurden im Jahr 2024 in Deutschland am häufigsten verwendet?",
   "answers": [
-    "1. 😂 Gesicht mit Freudentränen",
-    "2. 🤣 Lachendes Gesicht auf dem Boden rollend",
-    "3. 😉 Zwinkerndes Gesicht",
-    "4. 😍 Gesicht mit Herzaugen",
-    "5. ❤️ Rotes Herz",
-    "6. 😅 Lächelndes Gesicht mit Schweißtropfen",
-    "7. 😘 Kuss zuwerfendes Gesicht",
-    "8. 😭 Laut weinendes Gesicht",
-    "9. 😊 Lächelndes Gesicht mit lächelnden Augen",
+    "1. 😂",
+    "2. 🤣",
+    "3. 😉",
+    "4. 😍",
+    "5. ❤️",
+    "6. 😅",
+    "7. 😘",
+    "8. 😭",
+    "9. 😊",
     "10.😎"
     ]
   },
@@ -523,7 +523,7 @@ const cards = [
     ]
   },
 {
-  "question": "36. Welche 10 Wörter kommen laut Auswertungen des Dudenkorpus am häufigsten in deutschsprachigen Texten vor (Stand: 2025)?",
+  "question": "36. Welche 10 Wörter kommen laut des Duden am häufigsten in deutschsprachigen Texten vor (Stand: 2025)?",
   "answers": [
     "1. der",
     "2. die",
@@ -683,13 +683,13 @@ const cards = [
   "answers": [
     "1. Salz",
     "2. Schwarzer Pfeffer",
-    "3. Paprika (edelsüß, scharf oder geräuchert)",
-    "4. Knoblauch (getrocknet, Pulver, Granulat)",
+    "3. Paprika",
+    "4. Knoblauch",
     "5. Kreuzkümmel",
     "6. Kurkuma",
     "7. Zimt",
-    "8. Ingwer (getrocknet oder gemahlen)",
-    "9. Chili (Pulver oder Flocken)",
+    "8. Ingwer",
+    "9. Chili",
     "10. Oregano"
   ]
 }
@@ -699,13 +699,13 @@ const cards = [
   "answers": [
     "1. Schneidebrett",
     "2. Küchenmesser",
-    "3. Kochlöffel (meist Holz oder Silikon)",
+    "3. Kochlöffel",
     "4. Pfanne",
     "5. Kochtopf mit Deckel",
-    "6. Schüssel (z. B. Rühr- oder Salatschüssel)",
+    "6. Schüssel",
     "7. Sieb oder Abtropfsieb",
     "8. Messbecher",
-    "9. Reibe (z. B. für Käse oder Gemüse)",
+    "9. Reibe",
     "10. Dosenöffner"
   ]
 }
@@ -768,16 +768,16 @@ const cards = [
 {
   "question": "53. Welche 10 Länder verzeichneten im Jahr 2024 die höchsten durchschnittlichen Arbeitszeiten pro Woche?",
   "answers": [
-    "1. Bhutan – 54,4 Stunden/Woche",
-    "2. Vereinigte Arabische Emirate – 50,9 Stunden/Woche",
-    "3. Lesotho – 50,4 Stunden/Woche",
-    "4. Bangladesch – 49,7 Stunden/Woche",
-    "5. Pakistan – 47,6 Stunden/Woche",
-    "6. Mexiko – 42,4 Stunden/Woche",
-    "7. Costa Rica – 41,8 Stunden/Woche",
-    "8. Südkorea – 40,8 Stunden/Woche",
-    "9. Griechenland – 40,5 Stunden/Woche",
-    "10. Indien – 40,2 Stunden/Woche"
+    "1. Bhutan",
+    "2. Vereinigte Arabische Emirate",
+    "3. Lesotho",
+    "4. Bangladesch",
+    "5. Pakistan",
+    "6. Mexiko",
+    "7. Costa Rica",
+    "8. Südkorea",
+    "9. Griechenland",
+    "10. Indien"
   ]
 }
 ,
@@ -951,16 +951,16 @@ const cards = [
 {
   "question": "66. Welche 10 Städte verzeichnen weltweit die höchsten täglichen Fußgängerzahlen in ihren zentralen Bereichen (Stand: 2025)?",
   "answers": [
-    "1. Tokio (Shibuya Crossing) – bis zu 500.000 Fußgänger täglich",
-    "2. New York City (Times Square) – ca. 360.000 Fußgänger täglich",
-    "3. Paris (Champs-Élysées) – über 300.000 Fußgänger täglich",
-    "4. Barcelona (La Rambla) – ca. 200.000 Fußgänger täglich",
-    "5. London (Oxford Street) – über 200.000 Fußgänger täglich",
-    "6. Seoul (Myeongdong) – ca. 150.000 Fußgänger täglich",
-    "7. Istanbul (Istiklal-Straße) – über 100.000 Fußgänger täglich",
-    "8. Shanghai (Nanjing Road) – ca. 100.000 Fußgänger täglich",
-    "9. Sydney (Pitt Street Mall) – über 60.000 Fußgänger täglich",
-    "10. Aarhus (Strøget) – ca. 47.000 Fußgänger täglich"
+    "1. Tokio (Shibuya Crossing)",
+    "2. New York City (Times Square)",
+    "3. Paris (Champs-Élysées)",
+    "4. Barcelona (La Rambla)",
+    "5. London (Oxford Street)",
+    "6. Seoul (Myeongdong)",
+    "7. Istanbul (Istiklal-Straße)",
+    "8. Shanghai (Nanjing Road)",
+    "9. Sydney (Pitt Street Mall)",
+    "10. Aarhus (Strøget)"
   ]
 }
 ,
