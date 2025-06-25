@@ -494,16 +494,16 @@ const cards = [
 {
   "question": "34. Welche 10 Disney-Filme erzielten bis einschließlich 2025 das höchste weltweite Einspielergebnis?",
   "answers": [
-    "1. Inside Out 2 (2024) – 1,698 Mrd. USD",
-    "2. Der König der Löwen (2019) – 1,657 Mrd. USD",
-    "3. Die Eiskönigin II (2019) – 1,450 Mrd. USD",
-    "4. Die Eiskönigin – Völlig unverfroren (2013) – 1,280 Mrd. USD",
-    "5. Die Schöne und das Biest (2017) – 1,266 Mrd. USD",
-    "6. Die Unglaublichen 2 (2018) – 1,244 Mrd. USD",
-    "7. Toy Story 4 (2019) – 1,073 Mrd. USD",
-    "8. Toy Story 3 (2010) – 1,067 Mrd. USD",
-    "9. Pirates of the Caribbean: Am Ende der Welt (2007) – 963 Mio. USD",
-    "10. Vaiana 2 (2024) – 1,058 Mrd. USD"
+    "1. Inside Out 2 (2024)",
+    "2. Der König der Löwen (2019)",
+    "3. Die Eiskönigin II (2019)",
+    "4. Die Eiskönigin – Völlig unverfroren (2013)",
+    "5. Die Schöne und das Biest (2017)",
+    "6. Die Unglaublichen 2 (2018)",
+    "7. Toy Story 4 (2019)",
+    "8. Toy Story 3 (2010)",
+    "9. Pirates of the Caribbean: Am Ende der Welt (2007)",
+    "10. Vaiana 2 (2024)"
   ]
 }
 ,

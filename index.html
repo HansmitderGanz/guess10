@@ -25,7 +25,8 @@
       padding: 20px;
       box-sizing: border-box;
       position: relative;
-      overflow: hidden;
+      /* Ermöglicht, dass Karten über den Container hinaus sichtbar sind */
+      overflow: visible;
       box-shadow: 0 8px 20px rgba(0,0,0,0.4);
     }
     .card {
@@ -70,7 +71,6 @@
       word-break: break-word;
       border-radius: 4px;
     }
-    /* Abwechselnde Hintergrundfarben für bessere Lesbarkeit */
     ul li:nth-child(odd) {
       background-color: rgba(255, 255, 255, 0.1);
     }
@@ -85,32 +85,36 @@
   <script src="quizzehn_cards.js"></script>
   <script>
     const container = document.getElementById('container');
-    let currentIndex = -1;
+    let remainingIndices = [];
+    function resetRemaining() {
+      remainingIndices = cards.map((_, idx) => idx);
+    }
+    function getNextIndex() {
+      if (remainingIndices.length === 0) resetRemaining();
+      const randPos = Math.floor(Math.random() * remainingIndices.length);
+      return remainingIndices.splice(randPos, 1)[0];
+    }
 
     function makeCard(idx) {
       const c = cards[idx];
       const card = document.createElement('div');
       card.className = 'card';
       card.innerHTML = `
-        <div class="question">${c.question}</div>
+        <div class=\"question\">${c.question}</div>
         <ul>${c.answers.map(a => `<li>${a}</li>`).join('')}</ul>
       `;
       attachDrag(card);
       return card;
     }
 
-    // Binary Search für größte passende Font-Size mit Mindestgröße 12px
     function adjustAnswerFontSize(card) {
       const questionEl = card.querySelector('.question');
       const ul = card.querySelector('ul');
       const items = ul.querySelectorAll('li');
-
-      // Verfügbarer Platz berechnen
       const availableHeight = card.clientHeight
         - questionEl.offsetHeight
-        - (items.length - 1) * 8 // Margin + Padding (4px oben + 4px unten)
-        - 16;                    // Puffer
-
+        - (items.length - 1) * 8
+        - 16;
       let low = 12, high = 18, best = low;
       while (low <= high) {
         const mid = Math.floor((low + high) / 2);
@@ -126,44 +130,32 @@
     }
 
     function initStack() {
-      const first  = getNextIndex();
-      const second = getNextIndex();
-
-      const under = makeCard(second);
+      resetRemaining();
+      const firstIdx = getNextIndex();
+      const secondIdx = getNextIndex();
+      const under = makeCard(secondIdx);
       under.style.zIndex = 1;
       container.appendChild(under);
       requestAnimationFrame(() => adjustAnswerFontSize(under));
 
-      const top = makeCard(first);
+      const top = makeCard(firstIdx);
       top.style.zIndex = 2;
       container.appendChild(top);
       requestAnimationFrame(() => adjustAnswerFontSize(top));
-
-      currentIndex = first;
     }
 
     function loadNext() {
-      const newIdx  = getNextIndex();
-      const newCard = makeCard(newIdx);
+      const nextIdx = getNextIndex();
+      const newCard = makeCard(nextIdx);
       newCard.style.zIndex = 1;
-      container.querySelectorAll('.card')
-        .forEach(c => c.style.zIndex = parseInt(c.style.zIndex) + 1);
+      container.querySelectorAll('.card').forEach(c => c.style.zIndex = +c.style.zIndex + 1);
       container.appendChild(newCard);
       requestAnimationFrame(() => adjustAnswerFontSize(newCard));
-    }
-
-    function getNextIndex() {
-      let idx;
-      do { idx = Math.floor(Math.random() * cards.length); }
-      while (idx === currentIndex);
-      currentIndex = idx;
-      return idx;
     }
 
     function attachDrag(card) {
       let startX, startY, dx = 0, dy = 0, dragging = false;
       const threshold = 100;
-
       card.addEventListener('pointerdown', e => {
         dragging = true;
         startX = e.clientX;
@@ -171,18 +163,15 @@
         card.setPointerCapture(e.pointerId);
         card.style.transition = '';
       });
-
       card.addEventListener('pointermove', e => {
         if (!dragging) return;
         dx = e.clientX - startX;
         dy = e.clientY - startY;
         card.style.transform = `translate(${dx}px, ${dy}px) rotate(${dx * 0.05}deg)`;
       });
-
-      card.addEventListener('pointerup', e => {
+      card.addEventListener('pointerup', () => {
         if (!dragging) return;
         dragging = false;
-        card.releasePointerCapture(e.pointerId);
         if (Math.abs(dx) > threshold || Math.abs(dy) > threshold) {
           card.classList.add('slide-out');
           card.style.transform = `translate(${dx * 2}px, ${dy * 2}px)`;
