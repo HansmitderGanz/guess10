@@ -713,16 +713,16 @@ const cards = [
   {
   "question": "49. Welche 10 Nintendo-Konsolen verkauften sich weltweit am häufigsten (Stand: Ende 2024)?",
   "answers": [
-    "1. Nintendo DS – 154,02 Mio. Einheiten",
-    "2. Nintendo Switch – 146,04 Mio. Einheiten",
-    "3. Game Boy / Game Boy Color – 118,69 Mio. Einheiten",
-    "4. Wii – 101,63 Mio. Einheiten",
-    "5. Game Boy Advance – 81,51 Mio. Einheiten",
-    "6. Nintendo 3DS – 75,94 Mio. Einheiten",
-    "7. NES (Nintendo Entertainment System) – 61,91 Mio. Einheiten",
-    "8. SNES (Super Nintendo Entertainment System) – 49,10 Mio. Einheiten",
-    "9. Nintendo 64 – 32,93 Mio. Einheiten",
-    "10. Nintendo GameCube – 21,74 Mio. Einheiten"
+    "1. Nintendo DS",
+    "2. Nintendo Switch",
+    "3. Game Boy / Game Boy Color",
+    "4. Wii",
+    "5. Game Boy Advance",
+    "6. Nintendo 3DS",
+    "7. NES (Nintendo Entertainment System)",
+    "8. SNES (Super Nintendo Entertainment System)",
+    "9. Nintendo 64",
+    "10. Nintendo GameCube"
   ]
 }
 ,
